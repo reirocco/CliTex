@@ -1,6 +1,9 @@
-# CliTex - Minimal LaTeX Editor for Linux
+# CliTex - Minimal & Intelligent LaTeX Editor for Linux
 
-CliTex è un'applicazione desktop moderna e minimalista scritta in Python, progettata per consentire agli utenti di scrivere, compilare e salvare documenti LaTeX in formato PDF in modo semplice e veloce.
+CliTex è un'applicazione desktop moderna e minimalista scritta in Python, progettata per consentire agli utenti di scrivere, compilare e salvare documenti LaTeX in formato PDF in modo semplice, veloce e automatizzato.
+
+> [!IMPORTANT]
+> Questo repository è fornito con **licenza MIT** e include una **limitazione di responsabilità**. CliTex è progettato per ottimizzare lo scrollytelling 3D e il debugging LaTeX, ma lo sviluppatore declina ogni responsabilità per l'uso improprio o per eventuali errori di sistema derivanti dall'integrazione con il gestore pacchetti (pacman).
 
 ## Caratteristiche principali
 
@@ -76,4 +79,10 @@ sudo apt update && sudo apt install texlive-latex-base
 
 ## Contributi
 
-Contributi e segnalazioni di bug sono benvenuti. Si prega di aprire una Issue o una Pull Request per collaborare al miglioramento di LaTeXStudio.
+Contributi e segnalazioni di bug sono benvenuti. Si prega di aprire una Issue o una Pull Request per collaborare al miglioramento di CliTex.
+
+---
+
+## Limitazione di Responsabilità (Disclaimer)
+
+Questo software è fornito "così com'è", senza garanzie di alcun tipo, espresse o implicite. In nessun caso lo sviluppatore o i distributori saranno responsabili per eventuali reclami, danni (inclusa perdita di dati) o altre responsabilità derivanti dall'uso di CliTex o dalla sua integrazione con componenti di sistema come `pacman` e `pkexec`. L'utente si assume ogni responsabilità nell'eseguire script che richiedono privilegi di amministratore.

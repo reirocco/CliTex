@@ -1,0 +1,33 @@
+MIT License
+
+Copyright (c) 2026 reirocco
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+### DISCLAIMER / LIMITAZIONE DI RESPONSABILITÀ
+
+L'utente accetta che l'uso di CliTex avviene a proprio esclusivo rischio. Lo sviluppatore NON si assume alcuna responsabilità per:
+1. Eventuali danni diretti, indiretti, incidentali o consequenziali derivanti dall'uso o dall'impossibilità di usare il software.
+2. Errori di compilazione LaTeX, perdita di dati o corruzione di file PDF generati.
+3. Eventuali interazioni non desiderate con il gestore pacchetti di sistema (pacman/pkexec) o con le dipendenze LaTeX (TeX Live).
+4. Problemi derivanti dalla logica di 'Auto-Fix', che modifica temporaneamente il codice sorgente per la compilazione.
+
+Questo software viene fornito "così com'è" senza garanzie di alcun tipo.
