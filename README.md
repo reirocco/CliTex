@@ -1,6 +1,6 @@
-# LaTeXStudio - Modern LaTeX Editor for Linux
+# CliTex - Minimal LaTeX Editor for Linux
 
-LaTeXStudio-Modern-LaTeX-Editor è un'applicazione desktop moderna e minimalista scritta in Python, progettata per consentire agli utenti di scrivere, compilare e salvare documenti LaTeX in formato PDF in modo semplice e veloce.
+CliTex è un'applicazione desktop moderna e minimalista scritta in Python, progettata per consentire agli utenti di scrivere, compilare e salvare documenti LaTeX in formato PDF in modo semplice e veloce.
 
 ## Caratteristiche principali
 
