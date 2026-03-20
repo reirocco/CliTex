@@ -1,0 +1,35 @@
+# Created for CliTex v1.0.0 Release Engine
+name: Build and Release CliTex
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build_linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pyinstaller
+          
+      - name: Build with PyInstaller
+        run: |
+          pyinstaller --onefile --windowed --name clitex-linux latex_app.py
+          
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/clitex-linux
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

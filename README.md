@@ -1,88 +1,73 @@
-# CliTex - Minimal & Intelligent LaTeX Editor for Linux
+# 🚀 CliTex - The Intelligent & Minimal LaTeX Workflow
 
-CliTex è un'applicazione desktop moderna e minimalista scritta in Python, progettata per consentire agli utenti di scrivere, compilare e salvare documenti LaTeX in formato PDF in modo semplice, veloce e automatizzato.
+**CliTex** transforms the chaotic LaTeX compilation process into a streamlined, high-performance experience. Built for developers, researchers, and 3D storytellers who need speed without the overhead of heavy IDEs.
 
-> [!IMPORTANT]
-> Questo repository è fornito con **licenza MIT** e include una **limitazione di responsabilità**. CliTex è progettato per ottimizzare lo scrollytelling 3D e il debugging LaTeX, ma lo sviluppatore declina ogni responsabilità per l'uso improprio o per eventuali errori di sistema derivanti dall'integrazione con il gestore pacchetti (pacman).
+> **Value Proposition:** Stop fighting with `pdflatex` logs. CliTex automates environmental cleaning, resolves missing dependencies (Smart-Fix), and provides a modern GUI for immediate PDF generation.
 
-## Caratteristiche principali
+---
 
-*   Interfaccia moderna e scura utilizzando CustomTkinter.
-*   Area di testo dedicata per la scrittura del codice LaTeX.
-*   Log di compilazione in tempo reale per monitorare errori e messaggi di pdflatex.
-*   Esportazione rapida del PDF generato tramite pulsante dedicato.
-*   Compilazione sicura tramite directory temporanee isolate.
+## ✨ Key Features
 
-## Prerequisiti
+*   🎨 **Modern Dark UI:** Powered by CustomTkinter for a premium, distraction-free writing environment.
+*   🧠 **Smart-Fix Engine:** Automatically detects and injects missing `listings` definitions (JS/TS) into temporary builds.
+*   🧹 **Deep Clean:** Instantly removes non-ASCII artifacts (NBSP) and auto-corrects math-mode syntax.
+*   📦 **One-Click DevOps:** Built-in system package installer for TeX Live extensions.
+*   🔄 **OTA Updates:** Update your local installation directly from the GitHub main branch with one click.
+*   📋 **Full Log View:** Dedicated tab for detailed stdout/stderr with clinical logging precision.
 
-Per utilizzare questa applicazione, è necessario che il sistema abbia installato:
+---
 
-*   Python 3.x
-*   Una distribuzione LaTeX (come TeX Live o MiKTeX) che includa il comando `pdflatex`.
+## 🛠️ Quick Installation (Linux)
 
-## Installazione automatica (Linux)
+Get up and running in seconds:
 
-Abbiamo incluso uno script di installazione (`install.sh`) per facilitare l'ambiente di lavoro:
+```bash
+git clone https://github.com/reirocco/CliTex.git
+cd CliTex
+chmod +x install.sh
+./install.sh
+```
 
-1.  Assicurati che `install.sh` sia eseguibile:
-    ```bash
-    chmod +x install.sh
-    ```
-2.  Esegui l'installazione:
-    ```bash
-    ./install.sh
-    ```
+*Launch CliTex from your Application Menu or by typing `./clitex` in the terminal.*
 
-Questo script si occuperà di:
-*   Creare un ambiente virtuale (`venv`).
-*   Installare le dipendenze Python (`customtkinter`).
-*   Configurare i percorsi corretti.
-*   Creare una scorciatoia nel menu delle applicazioni del sistema.
+---
 
-## Utilizzo manuale
+## 🏗️ External System Requirements
 
-Se preferisci non utilizzare l'installer, puoi avviare l'applicazione manualmente seguendo questi passaggi:
-
-1.  Crea un ambiente virtuale:
-    ```bash
-    python3 -m venv venv
-    ```
-2.  Installa le dipendenze:
-    ```bash
-    ./venv/bin/pip install -r requirements.txt
-    ```
-3.  Avvia l'app:
-    ```bash
-    ./venv/bin/python3 latex_app.py
-    ```
-
-## Requisiti di sistema esterni
-
-L'applicazione comunica direttamente con `pdflatex`. Per installare i pacchetti necessari su diverse distribuzioni:
+CliTex communicates directly with your system's `pdflatex` engine. To install the necessary LaTeX collections:
 
 ### Arch Linux
 ```bash
-sudo pacman -S texlive-latex
+sudo pacman -S texlive-latexextra texlive-langitalian texlive-fontsrecommended
 ```
 
 ### Debian / Ubuntu
 ```bash
-sudo apt update && sudo apt install texlive-latex-base
+sudo apt update && sudo apt install texlive-latex-extra texlive-lang-italian
 ```
 
-## Struttura del progetto
+---
 
-*   latex_app.py: Il file sorgente principale in Python.
-*   install.sh: Script di installazione automatica.
-*   requirements.txt: Elenco delle librerie Python richieste.
-*   README.md: Questa guida.
+## 📂 Project Structure
 
-## Contributi
+*   `latex_app.py`: The core intelligent Python engine.
+*   `install.sh`: Automated Linux installer and desktop entry creator.
+*   `clitex`: Local binary wrapper for quick terminal launch.
+*   `clitex_icon.png`: Custom-made minimalist modern icon.
+*   `.github/workflows/release.yml`: Automated CI/CD for standalone releases.
+*   `update.sh`: Over-the-air update manager from GitHub.
+
+---
+
+## 🤝 Contributions
 
 Contributi e segnalazioni di bug sono benvenuti. Si prega di aprire una Issue o una Pull Request per collaborare al miglioramento di CliTex.
 
 ---
 
-## Limitazione di Responsabilità (Disclaimer)
+## ⚖️ Disclaimer (Limitazione di Responsabilità)
 
-Questo software è fornito "così com'è", senza garanzie di alcun tipo, espresse o implicite. In nessun caso lo sviluppatore o i distributori saranno responsabili per eventuali reclami, danni (inclusa perdita di dati) o altre responsabilità derivanti dall'uso di CliTex o dalla sua integrazione con componenti di sistema come `pacman` e `pkexec`. L'utente si assume ogni responsabilità nell'eseguire script che richiedono privilegi di amministratore.
+Questo software è fornito "così com'è", senza garanzie di alcun tipo. In nessun caso lo sviluppatore sarà responsabile per reclami, danni (inclusa la perdita di dati o corruzione di file) o altre responsabilità derivanti dall'uso di CliTex o dall'integrazione con componenti di sistema come `pacman` e `pkexec`. L'uso di script con privilegi amministrativi è sotto l'esclusiva responsabilità dell'utente.
+
+---
+*Created with focus on productivity and design.*
