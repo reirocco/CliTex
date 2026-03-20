@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 reirocco
+Copyright (c) 2026 Rocco Nori
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,15 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-### DISCLAIMER / LIMITAZIONE DI RESPONSABILITÀ
-
-L'utente accetta che l'uso di CliTex avviene a proprio esclusivo rischio. Lo sviluppatore NON si assume alcuna responsabilità per:
-1. Eventuali danni diretti, indiretti, incidentali o consequenziali derivanti dall'uso o dall'impossibilità di usare il software.
-2. Errori di compilazione LaTeX, perdita di dati o corruzione di file PDF generati.
-3. Eventuali interazioni non desiderate con il gestore pacchetti di sistema (pacman/pkexec) o con le dipendenze LaTeX (TeX Live).
-4. Problemi derivanti dalla logica di 'Auto-Fix', che modifica temporaneamente il codice sorgente per la compilazione.
-
-Questo software viene fornito "così com'è" senza garanzie di alcun tipo.
